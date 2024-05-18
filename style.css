@@ -1,0 +1,484 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family:'Anek Devanagari';
+  background: #ececec;
+}
+h1{
+  font-family: 'Pacifico';
+  font-size: 3.8em;
+  color: #f26649;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+/*--------------navbar--------------*/
+.topnav {
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-end;
+}
+.topnav a{
+  padding: 15px;
+  color: #264554;
+  font-size: 1.4em;
+  font-weight: 600;
+  text-decoration: none;
+}
+.topnav .icon{
+  display: none;
+  color: #264554;
+  font-size: 2.4rem;
+  padding-right: 20px;
+  margin-top: -10px;
+}
+
+.logo{
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  z-index: 1;
+  padding-left: 20px;
+}
+.logo img{
+  width: 80px;
+}
+.logo a{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+/*--------------farver til diverse--------------*/
+.gul{
+  color: #EFCA57;
+}
+.roed{
+  color: #f26649;
+}
+.orange{
+  color: #f89d57;
+}
+.blaa{
+  color: #005366;
+}
+.groen{
+  color:#00a08f;
+}
+.pink{
+  color: #fd9c8d;
+}
+/*--------------tekst--------------*/
+h2{
+  font-family: 'Anek Devanagari';
+  color: #264554;
+  font-weight:400;
+  font-size: 1.8em;
+  margin-top: 25px;
+}
+p{
+  color: #264554;
+  font-size: 1.3em;
+  font-weight: 200;
+  line-height: 1.3;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+/*--------------iconer--------------*/
+.fa-gauge-simple-high{
+  color: #f26649;
+  margin-bottom: -10px;
+}
+.fa-gauge-simple{
+  color: #EFCA57;
+}
+.fa-clock{
+  margin-top: 5px;
+  color: #264554;
+}
+.fa-universal-access{
+  color: #264554;
+}
+.fa-flip-horizontal{
+  color: #00a08f;
+}
+/*--------------smugkig kort--------------*/
+.smugkig{
+  display:grid;
+  grid-template-columns: 50% 50%;
+  max-width: 250px;
+  background-color: #f0f0f2;
+  border: 10px solid #dedede;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  padding: 15px;
+  width: 80%;
+}
+.smugkig i{
+  font-size: 2em;
+  margin-top: -10px;
+}
+.tekst{
+  font-size: 1.8em;
+  font-weight: 600;
+  margin-left: -50%;
+}
+/*--------------punktform--------------*/
+.opsæt{
+  color: #264554;
+  font-size: 1.3em;
+  font-weight: 200;
+  line-height: 1.5;
+}
+.opsæt-start{
+  color: #264554;
+  font-size: 1.3em;
+  font-weight: 200;
+  line-height: 1.3;
+  padding-top: 30px;
+}
+.opsæt-bund{
+  color: #264554;
+  font-size: 1.3em;
+  font-weight: 200;
+  line-height: 1.3;
+  padding-bottom: 30px;
+}
+/*--------------main--------------*/
+main{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.seq-1-intro{
+  display: grid;
+  width: 100%;
+}
+.seq-1-intro h1{
+  margin-top: -40px;
+}
+.seq-1-intro h2{
+  margin-top: -20px;
+}
+.seq-2 h2{
+  margin-top: 20px;
+}
+/*--------------orange knap--------------*/
+.orange-knap{
+  background-color: #f89d57;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.orange-knap p{
+  color: white;
+  font-size: 1.6em;
+  font-weight: 400;
+  padding-right: 10px;
+  padding-top: 6px;
+}
+.orange-knap i{
+  color: white;
+  font-size: 1.8em;
+  padding-right: 10px;
+  padding-bottom: 4px;
+}
+.orange-knap:active{
+  background-color: #ffffff;
+  border: 2px #f89d57 solid;
+  border-radius: 10px;
+}
+.orange-knap:active p{
+  color: #f89d57;
+}
+.orange-knap:active i{
+  color: #f89d57;
+}
+/*--------------gul knap--------------*/
+.gul-knap{
+  background-color: #EFCA57;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gul-knap p{
+  color: white;
+  font-size: 1.6em;
+  font-weight: 400;
+  padding-right: 10px;
+  padding-top: 6px;
+}
+.gul-knap i{
+  color: white;
+  font-size: 1.8em;
+  padding-right: 10px;
+  padding-bottom: 4px;
+}
+.gul-knap:active{
+  background-color: #ffffff;
+  border: 2px #EFCA57 solid;
+  border-radius: 10px;
+}
+.gul-knap:active p{
+  color: #EFCA57;
+}
+.gul-knap:active i{
+  color: #EFCA57;
+}
+/*--------------grøn knap--------------*/
+.groen-knap{
+  background-color: #00a08f;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.groen-knap p{
+  color: white;
+  font-size: 1.6em;
+  font-weight: 400;
+  padding-right: 10px;
+  padding-top: 6px;
+}
+.groen-knap i{
+  color: white;
+  font-size: 1.8em;
+  padding-right: 10px;
+  padding-bottom: 4px;
+}
+.groen-knap:active{
+  background-color: #ffffff;
+  border: 2px #00a08f solid;
+  border-radius: 10px;
+}
+.groen-knap:active p{
+  color: #00a08f;
+}
+.groen-knap:active i{
+  color: #00a08f;
+}
+/*--------------pink knap--------------*/
+.pink-knap{
+  background-color: #fd9c8d;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pink-knap p{
+  color: white;
+  font-size: 1.6em;
+  font-weight: 400;
+  padding-right: 10px;
+  padding-top: 6px;
+}
+.pink-knap i{
+  color: white;
+  font-size: 1.8em;
+  padding-right: 10px;
+  padding-bottom: 4px;
+}
+.pink-knap:active{
+  background-color: #ffffff;
+  border: 2px #fd9c8d solid;
+  border-radius: 10px;
+}
+.pink-knap:active p{
+  color: #fd9c8d;
+}
+.pink-knap:active i{
+  color: #fd9c8d;
+}
+/*--------------blå knap--------------*/
+.blaa-knap{
+  background-color: #005366;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blaa-knap p{
+  color: white;
+  font-size: 1.6em;
+  font-weight: 400;
+  padding-right: 10px;
+  padding-top: 6px;
+}
+.blaa-knap i{
+  color: white;
+  font-size: 1.8em;
+  padding-right: 10px;
+  padding-bottom: 4px;
+}
+.blaa-knap:active{
+  background-color: #ffffff;
+  border: 2px #005366 solid;
+  border-radius: 10px;
+}
+.blaa-knap:active p{
+  color: #005366;
+}
+.blaa-knap:active i{
+  color: #005366;
+}
+/*--------------rød knap--------------*/
+.roed-knap{
+  background-color: #f26649;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.roed-knap p{
+  color: white;
+  font-size: 1.6em;
+  font-weight: 400;
+  padding-right: 10px;
+  padding-top: 6px;
+}
+.roed-knap i{
+  color: white;
+  font-size: 1.8em;
+  padding-right: 10px;
+  padding-bottom: 4px;
+}
+.roed-knap:active{
+  background-color: #ffffff;
+  border: 2px #f26649 solid;
+  border-radius: 10px;
+}
+.roed-knap:active p{
+  color: #f26649;
+}
+.roed-knap:active i{
+  color: #f26649;
+}
+/*----------------------------*/
+.ilu img{
+  width: 100%;
+}
+/*--------------footer--------------*/
+footer{
+  background-color:#e96449;
+display: flex;
+justify-content: space-between;
+font-size: 2em;
+padding:0 20px;
+}
+footer img{
+  width: 80px;
+}
+.icons{
+  align-content: center;
+  padding-top: 8px;
+  color: #f5eccc;
+}
+/*--------------mobil--------------*/
+@media screen and (max-width: 600px){
+  .topnav a{
+      display: none;
+  }
+
+  .topnav .icon{
+      display: block;
+  }
+/* denne klasse bliver skabt af javascrbt når man klikker på burger menuen */
+  .responsive{
+      position: relative;
+      flex-direction: column;
+      align-items: center;
+      padding: 30px 0;
+  }
+  .responsive a{
+      display: block;
+      text-decoration: none;
+      font-size: 1.2rem;
+  }
+  .responsive .icon{
+      position: absolute;
+      top: 0;
+      right: 0;
+  }
+  .responsive .button{
+      width: 100%;
+      text-align: center;
+  }
+}
+@media screen and (min-width: 640px){
+  .overblik{
+    display: flex;
+  }
+  .smugkig{
+    min-width: 250px;
+    max-height: 160px;
+  }
+  .info{
+    margin-top: 15px;
+    margin-left: 20px;
+  }
+  .regler1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .tekst-højre{
+    padding-left: 10px;
+  }
+  .tekst-venstre{
+    padding-right: 10px;
+  }
+  .ilu{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .ilu img{
+    width: 600px;
+  }
+   .point{
+    margin-left: 60px;
+    margin-right: 60px;
+   }
+}
